@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GuessStarter",
+            "request": "launch",
+            "mainClass": "GuessStarter",
+            "projectName": "VSCode Launch_68692bcb"
+        },
+        {
+            "type": "java",
             "name": "HelloWorld",
             "request": "launch",
             "mainClass": "HelloWorld",

@@ -1,3 +1,4 @@
+package ChapterThree;
 import java.util.Scanner;
 
 public class TemperatureConversion {
@@ -12,7 +13,7 @@ public class TemperatureConversion {
     enteredTemp = in.nextDouble(); 
     
     //convert Celcsius to Farenheit 
-    int multipliedTemp; 
+    double multipliedTemp; 
     double farenheitTemp; 
         multipliedTemp = enteredTemp * 9/5; 
         farenheitTemp = multipliedTemp + 32; 

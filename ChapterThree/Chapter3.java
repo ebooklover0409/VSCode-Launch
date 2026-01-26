@@ -1,3 +1,4 @@
+package ChapterThree;
 import java.util.Scanner; 
 
 public class Chapter3 {
