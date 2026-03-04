@@ -18,6 +18,7 @@ public class Date {
         int year = 2026; 
         printAmerican(day, month, year, date); 
         printEuropean(day, date, month, year);
+        System.out.println(args[0]); 
     }
     
     }

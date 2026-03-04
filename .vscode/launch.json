@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ch8Exercises",
+            "request": "launch",
+            "mainClass": "Ch8Exercises",
+            "projectName": "VSCode Launch_68692bcb"
+        },
+        {
+            "type": "java",
+            "name": "Date",
+            "request": "launch",
+            "mainClass": "ChapterTwo.Date",
+            "projectName": "VSCode Launch_68692bcb"
+        },
+        {
+            "type": "java",
             "name": "GuessStarter",
             "request": "launch",
             "mainClass": "GuessStarter",
