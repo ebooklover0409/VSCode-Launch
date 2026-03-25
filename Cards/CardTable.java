@@ -1,4 +1,4 @@
-package ChapterTwelve; 
+package Cards;
 
 import java.awt.Canvas;
 import java.awt.Color;
@@ -7,10 +7,9 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
-public class Ch12Exer4 {
-
-    public class CardTable extends Canvas {
-        private Image[][] images;
+public class CardTable extends Canvas {
+        
+    private Image[][] images;
         private int cardWidth, cardHeight;
         /**
         * Creates a CardTable.
@@ -18,7 +17,7 @@ public class Ch12Exer4 {
         */
         public CardTable() {
             setBackground(new Color(0x088A4B));
-            // create a 2-D array of card images
+            // create a 2-D array of card images - assigning the file names here about suits bc it is in file names
             images = new Image[14][4];
             String cardset = "cardset-oxymoron";
             String suits = "cdhs";
@@ -81,4 +80,3 @@ public class Ch12Exer4 {
         }
     }
 
-    }

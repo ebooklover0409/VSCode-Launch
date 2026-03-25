@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CardTable",
+            "request": "launch",
+            "mainClass": "Cards.CardTable",
+            "projectName": "VSCode Launch_68692bcb"
+        },
+        {
+            "type": "java",
             "name": "Ch8Exercises",
             "request": "launch",
             "mainClass": "Ch8Exercises",
