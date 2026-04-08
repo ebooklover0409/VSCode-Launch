@@ -4,7 +4,7 @@ public class CircleCalculation {
         double diameter = 2 * radius; 
         System.out.println("Diameter: " + diameter); 
     }
-    public static void area(double radius) { 
+    public static void area(double radius) {  mm
         double area = Math.PI * radius * radius; 
         System.out.println("Area: " + area); 
     }
